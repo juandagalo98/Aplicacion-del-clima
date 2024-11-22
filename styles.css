@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://www3.gobiernodecanarias.org/medusa/mediateca/ecoescuela/wp-content/uploads/sites/2/2013/11/19-Soleado.png");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura visible */
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh; /* Asegura que el body ocupe toda la pantalla */
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+
+.container{ 
+    padding: 25px;
+    padding-top: 2px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: rgba(81, 81, 93, 0.7);
+    width: 100%;
+    max-width: 500px;
+    max-height: 320px;
+    border-radius: 7px;
+    text-align: center;
+
+}
+
+.city {
+    display: block;
+    padding: 7px;
+    width: 97%;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    
+}
+
+#get {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(59, 146, 82);
+    cursor: pointer;
+    color: bisque;
+    text-align: center;
+}
